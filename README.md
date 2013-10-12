@@ -5,6 +5,8 @@ level-basho
 
 [![NPM](https://nodei.co/npm/level-basho.png)](https://nodei.co/npm/level-basho/)
 
+[![Build Status](https://secure.travis-ci.org/Level/level-basho.png)](http://travis-ci.org/Level/level-basho)
+
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Basho](https://github.com/rvagg/node-leveldown/tree/basho-leveldb)** and exposes LevelUP on its export.
 
 Use this package to avoid having to explicitly install LevelDOWN-Basho when you want to use LevelDOWN-Basho with LevelUP.
