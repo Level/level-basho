@@ -1,31 +1,31 @@
 {
-    "name"            : "level-basho"
-  , "description"     : "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [Basho fork]"
-  , "version"         : "0.18.0"
-  , "repository"      : {
-        "type"            : "git"
-      , "url"             : "https://github.com/Level/level-basho.git"
-    }
-  , "homepage"        : "https://github.com/Level/level-basho"
-  , "keywords": [
-        "leveldb"
-      , "stream"
-      , "database"
-      , "db"
-      , "store"
-      , "storage"
-      , "json"
-    ]
-  , "main"            : "level-basho.js"
-  , "dependencies"    : {
-        "leveldown-basho" : "~0.10.0"
-      , "level-packager"  : "~0.18.0"
-    }
-  , "devDependencies" : {
-        "tape"            : "*"
-    }
-  , "scripts"         : {
-        "test"            : "node ./test.js"
-    }
-  , "license"         : "MIT"
+  "name": "level-basho",
+  "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [Basho fork]",
+  "version": "0.18.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Level/level-basho.git"
+  },
+  "homepage": "https://github.com/Level/level-basho",
+  "keywords": [
+    "leveldb",
+    "stream",
+    "database",
+    "db",
+    "store",
+    "storage",
+    "json"
+  ],
+  "main": "level-basho.js",
+  "dependencies": {
+    "leveldown-basho": "~0.10.0",
+    "level-packager": "~0.18.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "license": "MIT"
 }
