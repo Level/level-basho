@@ -1,13 +1,10 @@
-level-basho
-===========
+# level-basho
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+**This project has been abandoned. There will be no further releases. If you wish to revive `level-basho`, please open an issue in [`Level/community`](https://github.com/Level/community) to discuss a way forward. Thank you! :heart:**
+
+---
 
 **Fast & simple storage - a Node.js-style Basho-LevelDB wrapper**
-
-[![NPM](https://nodei.co/npm/level-basho.png)](https://nodei.co/npm/level-basho/)
-
-[![Build Status](https://secure.travis-ci.org/Level/level-basho.png)](http://travis-ci.org/Level/level-basho)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[LevelDOWN-Basho](https://github.com/rvagg/node-leveldown/tree/basho-leveldb)** and exposes LevelUP on its export.
 

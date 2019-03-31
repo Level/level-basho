@@ -18,11 +18,11 @@
   ],
   "main": "level-basho.js",
   "dependencies": {
-    "leveldown-basho": "~0.10.0",
-    "level-packager": "~0.18.0"
+    "level-packager": "0.18.0",
+    "leveldown-basho": "0.10.1"
   },
   "devDependencies": {
-    "tape": "^4.9.1"
+    "tape": "4.10.1"
   },
   "scripts": {
     "test": "node ./test.js"
